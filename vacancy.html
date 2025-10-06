@@ -13,12 +13,12 @@
 			<div class="header__content">
 				<button class="header__menu" aria-label="Переключаетель меню">
 					<svg class="header__burger-icon" width="60" height="23" aria-hidden="true">
-						<use xlink:href="images/sprite.svg#icon-burger"></use>
+						<use href="images/sprite.svg#icon-burger"></use>
 					</svg>
 				</button>
 				<a class="header__logo-link" href="#" aria-label="Переход на главную страницу Sminex">
 					<svg class="header__logo" width="115" height="27" aria-hidden="true">
-						<use xlink:href="images/sprite.svg#icon-logo"></use>
+						<use href="images/sprite.svg#icon-logo"></use>
 					</svg>
 				</a>
 			</div>
@@ -99,8 +99,8 @@
 
 						<fieldset class="form__fieldset">
 							<div class="custom-input">
-								<input class="custom-input__field" type="text" name="user-last-name" id="user-last-name" required />
-								<label class="custom-input__label" for="user-last-name">Имя*</label>
+								<input class="custom-input__field" type="text" name="user-first-name" id="user-first-name" required />
+								<label class="custom-input__label" for="user-first-name">Имя*</label>
 								<span class="custom-input__error">Данное поле должно быть заполнено</span>
 							</div>
 
@@ -111,8 +111,8 @@
 							</div>
 
 							<div class="custom-input">
-								<input class="custom-input__field" type="text" name="user-first-name" id="user-first-name" required />
-								<label class="custom-input__label" for="user-first-name">Фамилия*</label>
+								<input class="custom-input__field" type="text" name="user-last-name" id="user-last-name" required />
+								<label class="custom-input__label" for="user-last-name">Фамилия*</label>
 								<span class="custom-input__error">Данное поле должно быть заполнено</span>
 							</div>
 
@@ -123,7 +123,7 @@
 								</label>
 
 								<svg class="custom-input__icon" width="28" height="28" aria-hidden="true">
-									<use xlink:href="images/sprite.svg#icon-mail"></use>
+									<use href="images/sprite.svg#icon-mail"></use>
 								</svg>
 							</div>
 
@@ -134,12 +134,12 @@
 							</div>
 
 							<div class="custom-input custom-input--icon">
-								<input class="custom-input__field" type="email" name="user-link-cv" id="user-link-cv" />
+								<input class="custom-input__field" type="url" name="user-link-cv" id="user-link-cv" required />
 								<label class="custom-input__label" for="user-link-cv">
 									<span class="custom-input__label-text">Ссылка на резюме*</span>
 								</label>
 								<svg class="custom-input__icon" width="28" height="28" aria-hidden="true">
-									<use xlink:href="images/sprite.svg#icon-link"></use>
+									<use href="images/sprite.svg#icon-link"></use>
 								</svg>
 							</div>
 						</fieldset>
@@ -153,7 +153,7 @@
 										<a class="custom-checkbox__label-link" href="#">персональных данных</a></span
 									>
 									<svg class="custom-checkbox__icon" width="10" height="8" aria-hidden="true">
-										<use xlink:href="images/sprite.svg#icon-check"></use>
+										<use href="images/sprite.svg#icon-check"></use>
 									</svg>
 								</label>
 							</div>
@@ -169,7 +169,7 @@
 				<div class="footer__content">
 					<a class="footer__logo-link" href="#" aria-label="Переход на главную страницу Sminex">
 						<svg class="footer__logo" width="115" height="27" aria-hidden="true">
-							<use xlink:href="images/sprite.svg#icon-logo"></use>
+							<use href="images/sprite.svg#icon-logo"></use>
 						</svg>
 					</a>
 					<div class="footer__nav">
@@ -201,9 +201,9 @@
 		</footer>
 
 		<div class="modal">
-			<button class="modal__close">
+			<button class="modal__close" aria-label="закрыть модальное окно">
 				<svg class="modal__close-icon" width="20" height="20" aria-hidden="true">
-					<use xlink:href="images/sprite.svg#icon-close"></use>
+					<use href="images/sprite.svg#icon-close"></use>
 				</svg>
 			</button>
 			<p class="modal__text">
