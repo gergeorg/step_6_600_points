@@ -1,9 +1,9 @@
 .modal {
-	width: 360px;
-	padding: 26px 26px 16px;
-	position: absolute;
+	position: fixed;
 	right: 20px;
 	bottom: 20px;
+	width: 360px;
+	padding: 26px 26px 16px;
 	background-color: #1d252d;
 }
 
