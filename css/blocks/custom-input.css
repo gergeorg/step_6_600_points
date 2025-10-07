@@ -8,10 +8,13 @@
 .custom-input--error .custom-input__field {
   border-color:  #e80e0a;
   background-color: #fffafa;
-
   font-weight: 300;
   font-size: 12px;
   line-height: 117%;
+}
+
+.custom-input--error .custom-input__icon {
+  color:  #e80e0a;
 }
 
 .custom-input--error .custom-input__error {

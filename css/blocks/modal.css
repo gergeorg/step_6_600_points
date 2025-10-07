@@ -52,6 +52,23 @@
 	line-height: 117%;
 	color: #1d252d;
 	cursor: pointer;
+	transition: color .3s ease-in-out, background-color .3s ease-in-out;
 }
 
 
+.modal__button:hover {
+	background-color: #1d252d;
+	color: #fff;
+}
+
+.modal__button:focus-visible {
+	background-color: #0e1114;
+	color: #fff;
+	outline: none;
+}
+
+.modal__button:disabled {
+	background-color: rgba(214, 210, 196, 0.5);
+	color:  rgba(29, 37, 45, 0.5);
+	outline: 1px solid rgba(214, 210, 196, 0.5);;
+}

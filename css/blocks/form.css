@@ -1,20 +1,21 @@
 .form__top {
-	margin-bottom: 16px;
+	padding-top: 40px;
+	padding-bottom: 57px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-
 .form__title {
+	margin: 0;
 	font-weight: 200;
 	font-size: 48px;
 	line-height: 121%;
 	text-transform: uppercase;
 }
 
-
 .form__descr {
+	margin: 0;
 	max-width: 280px;
 	font-weight: 300;
 	font-size: 16px;
